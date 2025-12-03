@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0d0d11;
+  --foreground: #fafafa;
+  --primary: #5b4bff;
+  --secondary: #f6f3ff;
+  --accent: #b8a7ff;
+  --muted: #1a1a22;
+
+  --border: #262633;
+  --card: rgba(20, 20, 28, 0.92);
+  --card-foreground: var(--foreground);
+  --input: #262633;
+  --ring: var(--primary);
+  --muted-foreground: #9f9fb4;
+  --destructive: #ff4b6b;
+
+  --glass-border-soft: rgba(255, 255, 255, 0.08);
+  --glass-surface: rgba(13, 13, 17, 0.75);
+
+  --radius: 1rem;
+}
+
+.light {
+  --background: #f6f3ff;
+  --foreground: #0d0d11;
+  --primary: #5b4bff;
+  --secondary: #ffffff;
+  --accent: #b8a7ff;
+  --muted: #e1ddff;
+
+  --border: #e0def5;
+  --card: rgba(255, 255, 255, 0.9);
+  --card-foreground: var(--foreground);
+  --input: #e0def5;
+  --ring: var(--primary);
+  --muted-foreground: #59596b;
+  --destructive: #ff4b6b;
+
+  --glass-border-soft: rgba(255, 255, 255, 0.65);
+  --glass-surface: rgba(246, 243, 255, 0.8);
+}
+
+.dark {
+  --background: #0d0d11;
+  --foreground: #fafafa;
+  --primary: #5b4bff;
+  --secondary: #f6f3ff;
+  --accent: #b8a7ff;
+  --muted: #1a1a22;
+
+  --border: #262633;
+  --card: rgba(20, 20, 28, 0.92);
+  --card-foreground: var(--foreground);
+  --input: #262633;
+  --ring: var(--primary);
+  --muted-foreground: #9f9fb4;
+  --destructive: #ff4b6b;
+
+  --glass-border-soft: rgba(255, 255, 255, 0.08);
+  --glass-surface: rgba(13, 13, 17, 0.75);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: theme("fontFamily.sans");
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    @apply text-sm md:text-base text-muted-foreground;
+  }
+
+  a {
+    @apply text-sm md:text-base;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto max-w-6xl px-4 md:px-8 lg:px-12;
+  }
+
+  .section-shell {
+    @apply container-page py-12 md:py-16 lg:py-24;
+  }
+
+  .glass-surface {
+    background-color: var(--glass-surface);
+    border: 1px solid var(--glass-border-soft);
+    @apply rounded-2xl shadow-glass backdrop-blur-md;
+  }
+
+  .gradient-hero {
+    background-image: radial-gradient(circle at top left, var(--accent), transparent 55%),
+      radial-gradient(circle at top right, var(--primary), transparent 55%),
+      radial-gradient(circle at bottom, var(--muted), transparent 65%);
+    background-size: 160% 160%;
+  }
+}
+
+
