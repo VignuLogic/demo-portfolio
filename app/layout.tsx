@@ -26,19 +26,19 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children
+}: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${spaceGrotesk.variable} bg-background text-foreground antialiased`}>
-        <ThemeWrapper
-          children={
-            <div className="flex min-h-screen flex-col">
-              <Navbar />
-              <main className="flex-1">{children}</main>
-              <Footer />
-            </div>
-          }
-        />
+        <ThemeWrapper>
+          <div className="flex min-h-screen flex-col">
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </ThemeWrapper>
       </body>
     </html>
   );

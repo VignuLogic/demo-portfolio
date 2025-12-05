@@ -8,7 +8,7 @@ declare module "next" {
 }
 
 declare module "react" {
-  export type ReactNode = unknown;
+  export type ReactNode = any;
 }
 
 declare namespace JSX {
