@@ -3,21 +3,23 @@ import { MotionFadeIn } from "@/components/global/MotionFadeIn";
 
 const timeline = [
   {
-    period: "2024",
-    title: "Data & IoT Projects",
-    place: "Independent / Academic",
+    period: "2024 - Present",
+    title: "B.Tech in Computer Science Engineering",
+    place: "P.P. Savani University",
     points: [
-      "Built smart assistants, analytics use-cases, and connected systems across multiple domains.",
-      "Focused on combining data storytelling with tangible, hardware-driven experiences."
+      "GPA: 7.5/10 | Expected Graduation: 2027",
+      "Relevant Coursework: Data Structures, DBMS, Operating Systems, Statistics, Computer Networks"
     ]
   },
   {
-    period: "2023",
-    title: "IoT & Embedded Systems Work",
-    place: "Projects & Labs",
+    period: "2024",
+    title: "Hackathon Participant",
+    place: "Smart Solutions Hackathon",
     points: [
-      "Prototyped sensor-based systems and automation flows for real-world environments.",
-      "Integrated microcontrollers, connectivity, and cloud platforms."
+      "Designed and developed a functioning prototype within a 24–48 hour time-bound challenge.",
+      "Worked on concept building, system flow, UI/UX planning, and feature design.",
+      "Collaborated with a team to create a real-world impactful solution.",
+      "Appreciated for innovative thinking, problem-solving skills, and effective teamwork."
     ]
   }
 ];
@@ -28,8 +30,8 @@ export function ResumeSection() {
       <div className="space-y-10">
         <SectionHeader
           eyebrow="Resume"
-          title="Experience & journey so far."
-          subtitle="Download a full resume or explore a quick snapshot of my journey and focus areas."
+          title="Education & Experience"
+          subtitle="Explore my academic journey and professional experiences."
         />
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <MotionFadeIn>

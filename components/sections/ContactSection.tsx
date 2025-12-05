@@ -11,18 +11,19 @@ export function ContactSection() {
       <div className="space-y-10">
         <SectionHeader
           eyebrow="Contact"
-          title="Let’s collaborate."
-          subtitle="Whether it's a data problem, an IoT idea, or a product concept, I’d love to hear from you."
+          title="Let's connect."
+          subtitle="Whether it's a data analysis opportunity, collaboration on a project, or just to connect, I'd love to hear from you."
         />
         <div className="grid grid-cols-1 gap-8 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
           <MotionFadeIn>
             <form
               className="glass-surface space-y-5 p-6"
-              action="https://formsubmit.co"
+              action="https://formsubmit.co/vignua09@gmail.com"
               method="POST"
             >
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_subject" value="New message from portfolio" />
+              <input type="hidden" name="_captcha" value="false" />
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>
                 <Input id="name" name="name" required />
@@ -42,17 +43,35 @@ export function ContactSection() {
           </MotionFadeIn>
           <MotionFadeIn delay={0.08}>
             <div className="glass-surface flex flex-col gap-4 p-6 text-sm text-muted-foreground">
+              <div>
+                <p className="font-medium text-foreground mb-2">Location:</p>
+                <p>Bharuch, Gujarat</p>
+              </div>
               <p>
                 Prefer reaching out directly? Feel free to connect through any of the
                 following channels.
               </p>
+              <div className="space-y-3">
+                <div className="text-xs text-muted-foreground">
+                  <p className="font-medium text-foreground mb-1">Phone:</p>
+                  <a href="tel:+917435081624" className="hover:text-foreground transition-colors">
+                    +91 74350 81624
+                  </a>
+                </div>
+                <div className="text-xs text-muted-foreground">
+                  <p className="font-medium text-foreground mb-1">Email:</p>
+                  <a href="mailto:vignua09@gmail.com" className="hover:text-foreground transition-colors break-all">
+                    vignua09@gmail.com
+                  </a>
+                </div>
+              </div>
               <div className="flex flex-col gap-3">
                 <Button asChild variant="glass" size="sm">
-                  <a href="mailto:ava@example.com">Email</a>
+                  <a href="mailto:vignua09@gmail.com">Email</a>
                 </Button>
                 <Button asChild variant="glass" size="sm">
                   <a
-                    href="https://www.linkedin.com"
+                    href="https://linkedin.com/in/vigneshwari-subhanji-b9b290312"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -60,8 +79,13 @@ export function ContactSection() {
                   </a>
                 </Button>
                 <Button asChild variant="glass" size="sm">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/VignuLogic" target="_blank" rel="noreferrer">
                     GitHub
+                  </a>
+                </Button>
+                <Button asChild variant="glass" size="sm">
+                  <a href="https://leetcode.com/u/V_09" target="_blank" rel="noreferrer">
+                    LeetCode
                   </a>
                 </Button>
               </div>

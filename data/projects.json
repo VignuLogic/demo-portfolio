@@ -1,53 +1,23 @@
 [
   {
-    "slug": "hybrid-smart-lake-cleaner",
-    "title": "Hybrid Smart Lake Cleaner",
-    "role": "IoT System Designer",
-    "summary": "Designed an IoT-powered cleaning system to monitor and improve lake health using hybrid mechanical and sensor-based mechanisms.",
-    "tech": ["IoT", "Sensors", "Embedded", "Automation"]
+    "slug": "manpower-matchmaker",
+    "title": "Manpower Matchmaker",
+    "role": "Web App (Hackathon Project)",
+    "summary": "A platform that connects companies with skilled/unskilled workers based on job requirements. Built a worker–employer matching system for efficient hiring with dashboards for worker listing, tracking, and subscription management.",
+    "tech": ["Python", "HTML/CSS", "MySQL"]
   },
   {
     "slug": "mediconnect",
     "title": "MediConnect",
-    "role": "Platform & Experience",
-    "summary": "Healthcare platform concept improving coordination between patients, doctors, and services with an emphasis on clarity and trust.",
-    "tech": ["Product Thinking", "APIs", "UX"]
-  },
-  {
-    "slug": "manpower-connect",
-    "title": "Manpower Connect",
-    "role": "Product & Data",
-    "summary": "Worker hiring platform idea aligning the right opportunities with the right people using structured data and transparent flows.",
-    "tech": ["Data Modeling", "Workflows", "Platform Design"]
-  },
-  {
-    "slug": "pinterest-style-gallery",
-    "title": "Pinterest-style Gallery",
-    "role": "Full-stack Developer",
-    "summary": "Aesthetic, masonry-style gallery built with Flask, highlighting visual storytelling and simple content management.",
-    "tech": ["Flask", "Python", "Frontend"]
+    "role": "Healthcare Service Platform",
+    "summary": "A digital solution enabling remote doctor consultation and smart EHR access. Implemented secure EHR system for storing patient medical history, integrated video-based remote doctor appointments, and introduced the concept of 'Doctors Work From Home' for flexible healthcare.",
+    "tech": ["Python", "Streamlit", "Pandas", "Plotly"]
   },
   {
     "slug": "wearyourbond",
     "title": "WearYourBond",
-    "role": "Brand & Experience",
-    "summary": "Concept brand exploring how personalization, narrative, and design can come together in a wearable experience.",
-    "tech": ["Branding", "Storytelling"]
-  },
-  {
-    "slug": "smart-reminder-assistant",
-    "title": "Smart Reminder Assistant",
-    "role": "IoT Innovator",
-    "summary": "Assistant that uses sensors and scheduled triggers to create context-aware reminders in everyday spaces.",
-    "tech": ["IoT", "Automation", "Embedded"]
-  },
-  {
-    "slug": "data-analytics-mini-projects",
-    "title": "Data Analytics Mini Projects",
-    "role": "Data Analyst",
-    "summary": "A series of mini projects including fraud detection experiments, exploratory dashboards, and reporting flows.",
-    "tech": ["Analytics", "Dashboards", "Python", "SQL"]
+    "role": "Custom Couple T-shirt Platform",
+    "summary": "A pastel-themed Gen-Z friendly website for designing and previewing personalized T-shirts. Built customization features for text, colors, and design themes, created a clean aesthetic UI inspired by modern Instagram brands, and designed backend workflow for handling custom orders.",
+    "tech": ["HTML", "CSS", "Python"]
   }
 ]
-
-

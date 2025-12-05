@@ -11,15 +11,14 @@ export function HeroSection() {
       <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
         <MotionFadeIn>
           <div className="space-y-6">
-            <Badge variant="primary">Data Analyst · IoT Innovator · Tech Creator</Badge>
+            <Badge variant="primary">Aspiring Data Analyst · Python · SQL · Excel</Badge>
             <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-              Turning raw data into meaningful stories &amp; building future-ready
-              solutions.
+              Converting raw data into meaningful insights with analytical thinking &amp; data-driven approaches.
             </h1>
             <p className="max-w-xl text-sm md:text-base text-muted-foreground">
-              I&apos;m Vigneshwari (Ava), a data-focused technologist who blends
-              analytics, IoT, and product thinking to design human-centered solutions
-              that are reliable, scalable, and insight driven.
+              I&apos;m Vigneshwari Subhanji, an aspiring Data Analyst skilled in Python, SQL, and Excel. 
+              I have a passion for solving real-world problems using data-driven approaches and converting 
+              raw data into meaningful insights.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button asChild variant="primary" size="lg">
@@ -35,16 +34,15 @@ export function HeroSection() {
           <div className="glass-surface relative mx-auto flex max-w-md flex-col gap-4 p-6">
             <div className="flex items-center justify-between">
               <span className="text-xs font-medium text-muted-foreground">
-                Current focus
+                Location
               </span>
-              <span className="text-xs text-primary">Analytics × IoT</span>
+              <span className="text-xs text-primary">Bharuch, Gujarat</span>
             </div>
             <div className="space-y-3 text-sm text-muted-foreground">
               <p>
-                Exploring intelligent systems that combine sensor data, cloud
-                analytics, and intuitive interfaces.
+                Currently pursuing B.Tech in Computer Science Engineering at P.P. Savani University.
               </p>
-              <p>Always asking: what story is the data trying to tell?</p>
+              <p>Expected Graduation: 2027</p>
             </div>
           </div>
         </MotionFadeIn>

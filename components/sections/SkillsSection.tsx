@@ -5,24 +5,19 @@ import { Badge } from "@/components/ui/badge";
 
 const skills = [
   {
+    title: "Programming",
+    description: "Core programming languages and web technologies for building robust applications.",
+    tags: ["Python", "SQL", "HTML", "CSS", "Java (Basics)", "JavaScript (Basics)"]
+  },
+  {
     title: "Data Analytics",
-    description: "Exploratory analysis, feature engineering, and insight-driven narratives.",
-    tags: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"]
+    description: "Data cleaning, manipulation, and visualization for meaningful insights.",
+    tags: ["Pandas (Data cleaning & manipulation)", "Excel (sorting, filtering, formulas)", "Data Visualization (charts, graphs)", "Logical thinking & problem-solving"]
   },
   {
-    title: "IoT & Embedded",
-    description: "Sensor integration, microcontrollers, and smart assistant systems.",
-    tags: ["Arduino", "Raspberry Pi", "MQTT", "Sensors"]
-  },
-  {
-    title: "Web & APIs",
-    description: "Full-stack experiences for data products and dashboards.",
-    tags: ["Flask", "REST APIs", "JavaScript", "Next.js (learning)"]
-  },
-  {
-    title: "Product & Storytelling",
-    description: "Structured problem solving with clear communication and visuals.",
-    tags: ["Dashboards", "Reporting", "UX thinking"]
+    title: "Tools & Platforms",
+    description: "Essential tools and platforms for development and version control.",
+    tags: ["GitHub", "MySQL"]
   }
 ];
 
@@ -32,8 +27,8 @@ export function SkillsSection() {
       <div className="space-y-10">
         <SectionHeader
           eyebrow="Skills"
-          title="A focused toolkit for data and IoT work."
-          subtitle="Every project is an opportunity to combine analytical rigor, technical depth, and thoughtful communication."
+          title="Technical Skills & Expertise"
+          subtitle="A comprehensive toolkit for data analysis, programming, and problem-solving."
         />
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {skills.map((skill, index) => (

@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border/60">
       <div className="section-shell flex flex-col items-center gap-3 text-center">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Vigneshwari Subhanji (Ava). All rights
+          © {new Date().getFullYear()} Vigneshwari Subhanji. All rights
           reserved.
         </p>
         <div className="flex items-center gap-4 text-xs text-muted-foreground">

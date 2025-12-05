@@ -20,8 +20,8 @@ export function ProjectsSection() {
       <div className="space-y-10">
         <SectionHeader
           eyebrow="Projects"
-          title="Selected projects & experiments."
-          subtitle="A snapshot of IoT systems, data products, and experience-led platforms I’ve worked on."
+          title="Featured Projects"
+          subtitle="A showcase of web applications, healthcare platforms, and innovative solutions I've built during hackathons and academic projects."
         />
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {typedProjects.map((project, index) => (
