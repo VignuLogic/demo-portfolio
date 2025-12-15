@@ -88,14 +88,17 @@ body {
   background-color: var(--background);
   background-image: radial-gradient(circle at 15% 20%, var(--primary-soft), transparent 45%),
     radial-gradient(circle at 80% 0%, var(--accent-soft), transparent 45%),
-    radial-gradient(circle at 50% 80%, var(--muted-soft), transparent 55%),
-    linear-gradient(135deg, var(--background), var(--background-alt), var(--background-highlight));
+    linear-gradient(135deg, var(--background), var(--background-alt));
+
   color: var(--foreground);
-  font-family: theme("fontFamily.sans");
+  font-family: var(--font-sans, 'Inter', ui-sans-serif, system-ui);
   font-size: clamp(0.95rem, 0.92rem + 0.2vw, 1.05rem);
   line-height: 1.7;
   letter-spacing: -0.01em;
+
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
+
 
 @layer base {
   h1,
