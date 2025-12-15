@@ -1,5 +1,0 @@
-components/ui/button.tsx(38,16): error TS2304: Cannot find name 'forwardRef'.
-components/ui/card.tsx(1,10): error TS2305: Module '"react"' has no exported member 'forwardRef'.
-components/ui/input.tsx(1,10): error TS2305: Module '"react"' has no exported member 'forwardRef'.
-components/ui/label.tsx(1,10): error TS2305: Module '"react"' has no exported member 'forwardRef'.
-components/ui/textarea.tsx(1,10): error TS2305: Module '"react"' has no exported member 'forwardRef'.

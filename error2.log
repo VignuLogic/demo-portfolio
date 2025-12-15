@@ -1,9 +1,0 @@
-components/ui/button.tsx(38,22): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/card.tsx(5,20): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/card.tsx(16,26): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/card.tsx(27,25): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/card.tsx(41,31): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/card.tsx(52,27): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/input.tsx(4,21): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/label.tsx(4,21): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
-components/ui/textarea.tsx(5,24): error TS2339: Property 'forwardRef' does not exist on type 'typeof import("react")'.
